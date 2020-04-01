@@ -48,7 +48,7 @@ export default class Stepan {
 
 class StepanError extends Error {
   constructor(message) {
-  super(message);
-  this.name = "StepanError";
+    super(message);
+    this.name = "StepanError";
   }
 }
